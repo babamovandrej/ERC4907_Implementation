@@ -1,10 +1,10 @@
 //SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.18;
 
-import { Ownable } from "../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
-import { ReentrancyGuard } from "../lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol";
-import { Strings } from "../lib/openzeppelin-contracts/contracts/utils/Strings.sol";
+import { Ownable } from "openzeppelin-contracts/access/Ownable.sol";
+import { ReentrancyGuard } from "openzeppelin-contracts/security/ReentrancyGuard.sol";
+import { Strings } from "openzeppelin-contracts/utils/Strings.sol";
 import { ERC4907 } from "./ERC4907.sol";
 
 contract Rental is ERC4907, Ownable, ReentrancyGuard {

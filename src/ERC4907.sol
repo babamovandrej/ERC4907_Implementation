@@ -1,9 +1,9 @@
 //SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.18;
 
 import { IERC4907 } from "./interfaces/IERC4907.sol";
-import { ERC721 } from "../lib/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
+import { ERC721 } from "openzeppelin-contracts/token/ERC721/ERC721.sol";
 
 
 contract ERC4907 is ERC721, IERC4907 {

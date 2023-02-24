@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.18;
 
-import { PRBTest } from "../lib/prb-test/src/PRBTest.sol";
-import { console2 } from "../lib/forge-std/src/console2.sol";
-import { StdCheats } from "../lib/forge-std/src/StdCheats.sol";
+import { PRBTest } from "prb-test/PRBTest.sol";
+import { console2 } from "forge-std/console2.sol";
+import { StdCheats } from "forge-std/StdCheats.sol";
 import { Rental } from "../src/Rental.sol";
 
 contract RentalTest is PRBTest, StdCheats {
