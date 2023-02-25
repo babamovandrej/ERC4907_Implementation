@@ -5,7 +5,7 @@ pragma solidity ^0.8.18;
 import { Ownable } from "openzeppelin-contracts/access/Ownable.sol";
 import { ReentrancyGuard } from "openzeppelin-contracts/security/ReentrancyGuard.sol";
 import { Strings } from "openzeppelin-contracts/utils/Strings.sol";
-import { ERC4907 } from "./ERC4907.sol";
+import { ERC4907 } from "../src/ERC4907.sol";
 
 contract Rental is ERC4907, Ownable, ReentrancyGuard {
     using Strings for uint256;
